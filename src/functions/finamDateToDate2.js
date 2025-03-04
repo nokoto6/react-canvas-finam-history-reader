@@ -1,0 +1,1 @@
+export default (date, time) => new Date(`${date.substring(0, 4)}-${date.substring(4, 6)}-${date.substring(6, 8)}T${time.substring(0, 2)}:${time.substring(2, 4)}:${time.substring(4, 6)}`)
